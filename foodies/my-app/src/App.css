@@ -1,0 +1,770 @@
+body {
+ background-color: white;
+}
+
+.App {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  box-shadow: 2px 1px 16px;
+  color: darkorange;
+  margin-top: 0px;
+  padding: 10px;
+ 
+}
+
+
+
+a {
+  position: inherit;
+  font-size: 17px;
+  color: darkorange;
+  text-decoration: none;
+}
+
+.content {
+  position: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 10em;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: inherit;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+p.find {
+  padding: 11px 52px;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 22px;
+}
+input.name {
+  width: 67%;
+  height: auto;
+  padding: 5px;
+}
+
+input[type="text"] {
+  margin: 0px 23px;
+  font-size: 22px;
+  
+}
+
+
+input.eat{
+  width: 48%;
+  box-shadow: 2px 2px 2px lightblue;
+  height: 2em;
+  color: green;
+}
+
+.login {
+ display: flex;
+ justify-content: center;
+}
+
+.login-2 {
+  /* width: 41%; */
+  padding: 3em;
+  background-color: whitesmoke;
+  margin: 50px 0px;
+  border-radius: 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  /* display: block; */
+  padding: 11px 60px;
+  /* width: 4%; */
+  font-size: 18px;
+  height: fit-content;
+  color: white;
+  font-weight: 800;
+  border: none;
+  background-color: darkorange;
+}
+img {
+  height: auto;
+  
+  
+}
+
+h4 {
+  display: flex;
+  align-items: baseline;
+  font-size: 22px;
+  color: darkorange;
+  margin: 21px 21px;
+  padding: 17px 38px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ll {
+  display: flex;
+  flex-direction: column;
+  row-gap: 87px;
+  margin-top: 6em;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  background-color: #044778;
+  padding: 4em
+}
+.home-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  background-color: #044778;
+  padding: 4em;
+}
+.home-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  padding: 4em;
+  background-color: #044778;
+}
+.home-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  padding: 4em;
+  background-color: #044778;
+}
+.home-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  padding: 4em;
+  background-color: #044778;
+}
+
+
+p.order {
+  font-size: 45px;
+  font-family: inherit;
+  text-align: initial;
+  margin: 10px 0px;
+  color: white;
+  
+}
+
+article.any {
+  text-align: initial;
+  font-size: 9px;
+  color: gray;
+  color: #eabbbb;
+}
+
+button.second {
+  padding: 14px 60px;
+  background-color: white;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+a.third {
+  padding: 7px 53px;
+  font-size: 21px;
+  font-family: inherit;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 6px white;
+}
+.image2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  /* justify-content: space-between; */
+}
+
+.home-0npm {
+  background-color: #044778;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4em;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+
+  height: auto;
+
+}
+
+.dish:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
+.name {
+  color: azure;
+}
+
+.ho {
+  
+  padding: 4%;
+}
+
+.image {
+  display: flex;
+ 
+  justify-content: center;
+}
+
+p.titel {
+  border-top: 1px solid #514646;
+  color: black;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+
+.bunchname {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.ho {
+ 
+  
+  width: -moz-fit-content;
+ 
+  padding: 4%;
+}
+
+a.price {
+  padding: 5px 60px;
+  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  font-family: 'Cinzel', serif;
+  background-color: #3f832e;
+}
+
+
+button.jk {
+  font-size: 25px;
+  padding: 5px 60px;
+  font-family: cursive;
+  font-weight: 500;
+  background-image: radial-gradient(orange, darkorange);
+}
+
+.fv {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.humanimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: darkcyan;
+}
+
+h1 {
+ 
+  font-size: 58px;
+  background-color: darkorange;
+  color: #b82f2f;
+  padding: 8px;
+  font-family: 'Cinzel', serif;
+  margin-top: 17px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.speech {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+
+img.human {
+ 
+  height: auto;
+}
+
+.a-f1 {
+  background-color: whitesmoke;
+}
+
+.contact {
+  display: contents;
+  text-align: center;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+.hoy {
+  
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+h2.check {
+  color: goldenrod;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0px;
+  border-bottom: 1px solid red;
+}
+
+.took {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  /* justify-content: center; */
+  font-size: 13px;
+  margin: 0;
+  border: 1px solid ghostwhite;
+  width: 68em;
+  position: relative;
+  left: 30em;
+  top: -53px;
+}
+
+h2.tikka {
+  margin: 4px;
+  color: green;
+  font-size: 16px;
+  padding: 8px;
+  text-align: start;
+  /* border: 2px solid; */
+  letter-spacing: 1px;
+}
+
+.cent {
+  display: flex;
+  justify-content: flex-start;
+  width: 48%;
+  border: 2px solid ghostwhite;
+  margin: 0 auto;
+  position: relative;
+  top: -54px;
+  left: -5.2em;
+}
+
+p.close {
+  position: relative;
+  right: 5em;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .home{
+    column-gap: 30px;
+  }
+  p.order {
+    font-size: 30px;
+}
+a.third {
+  font-size: 15px;
+  padding: 5px 30px;
+}
+.image2 {
+  column-gap: 0px;
+}
+img.land-img {
+  width: 25em;
+}
+.content {
+  column-gap: 8em;
+}
+  }
+
+
+
+
+@media only screen and (max-width: 999px) {
+  
+  .content{
+    column-gap: 7em;
+  }
+  p.order {
+    font-size: 30px;
+}
+img.land-img {
+  width: 16em;
+}
+h1 {
+  font-size: 48px;
+}
+p.speech {
+  font-size: 15px;
+}
+img.human {
+  width: 94%;
+  height: auto;
+}
+}
+
+@media only screen and (max-width: 957px) {
+  
+  h4 {
+    font-size: 18px;
+}
+  .content{
+    column-gap: 4em;
+  }
+  p.order {
+    font-size: 23px;
+}
+.home {
+  column-gap: 31px;
+}
+.home-1 {
+  column-gap: 30px;
+}
+.home-2 {
+  column-gap: 30px;
+}
+
+.home-3 {
+  column-gap: 30px;
+}
+.home-0npm {
+  column-gap: 30px;
+}
+
+.home-4 {
+  column-gap: 30px;
+}
+a.third {
+  padding: 7px 30px;
+}
+h2.check {
+  font-size: 18px;
+}
+
+p.check-3 {
+  font-size: 15px;
+}
+
+}
+
+
+@media only screen and (max-width: 794px) {
+  
+  .content{
+    column-gap: 3em;
+  }
+
+  .bunchname {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h2.check {
+  font-size: 20px;
+}
+img.con {
+  width: 95%;
+}
+a.price {
+  padding: 5px 22px;
+  font-size: 20px;
+}
+
+button.jk {
+  padding: 5px 25px;
+  font-size: 22px;
+}
+.fv {
+  column-gap: 20px;
+  justify-content: start;
+}
+.name {
+  color: azure;
+  margin-left: 16px;
+}
+p.check-3 {
+  font-size: 14px;
+}
+
+.login-2{
+  padding: 2em;
+}
+}
+
+@media only screen and (max-width: 673px) {
+
+  img.bir {
+    width: 8em;
+}
+p.find {
+  padding: 5px 30px;
+}
+input.eat{
+  height: 30px;
+}
+
+h2.check {
+  font-size: 15px;
+}
+p.order {
+  font-size: 19px;
+}
+a.third {
+  padding: 7px 27px;
+  font-size: 17px;
+}
+.login-2 {
+  padding: 1em;
+}
+button {
+  font-size: 14px;
+  padding: 8px 21px;
+}
+h4 {
+  font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 589px) {
+  
+  h4 {
+    margin: 9px;
+}
+
+
+  p.titel {
+    font-size: 15px;
+}
+
+.content {
+  column-gap: 2em;
+}
+a {
+  font-size: 14px;
+}
+p.order {
+  font-size: 14px;
+}
+a.third {
+  padding: 7px 23px;
+  font-size: 14px;
+}
+
+h2.check {
+  font-size: 15px;
+}
+p.check-3 {
+  font-size: 14px;
+}
+img.land-img {
+  width: 14em;
+}
+.home {
+  padding: 3em;
+}
+.home-1 {
+  padding: 3em;
+}
+.home-2 {
+  padding: 3em;
+}
+.home-3 {
+  padding: 3em;
+}
+.home-4 {
+  padding: 3em;
+}
+.home-0npm {
+  padding: 3em;
+}
+.login-2 {
+  padding: 0em;
+}
+.button {
+  padding: 1em;
+}
+input[type="text"] {
+  margin: 0px 19px;
+  font-size: 18px;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+p.speech {
+  font-size: 13px;
+}
+img.human {
+  width: 81%;
+  height: auto;
+}
+}
+
+@media only screen and (max-width: 517px) {
+
+  .bunchname {
+    display: block;
+}
+a {
+  font-size: 13px;
+}
+p.check-3 {
+  font-size: 10px;
+}
+h2.check {
+  font-size: 13px;
+}
+img.bir {
+  width: 5em;
+}
+.cent {
+  width: 50%;
+  left: -62px;
+}
+img.land-img {
+  width: 10em;
+}
+p.order {
+  font-size: 12px;
+}
+a.third {
+  font-size: 10px;
+}
+h2.check {
+  font-size: 12px;
+}
+input[type="text"] {
+  margin: 0px 19px;
+  font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+  a {
+    font-size: 10px;
+}
+p.find {
+  padding: 5px 12px;
+  font-size: 19px;
+}
+
+h2.check {
+  font-size: 10px;
+}
+p.check-3 {
+  font-size: 9px;
+}
+.cent {
+  width: 50%;
+  left: -39px;
+}
+a.third {
+  padding: 5px 10px;
+  font-size: 10px;
+}
+article.any {
+  font-size: 6px;
+}
+img.land-img {
+  width: 8em;
+}
+input[type="text"] {
+  margin: 0px 19px;
+  font-size: 14px;
+}
+h1 {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+p.speech {
+  font-size: 13px;
+  line-height: 26px;
+}
+h2.tikka {
+  font-size: 14px;
+}
+}
+@media only screen and (max-width: 390px) {
+
+  input[type="text"] {
+    margin: 0px 19px;
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 12px;
+    padding: 1em;
+}
+p.speech {
+  font-size: 10px;
+  line-height: 26px;
+}
+p.check-3 {
+  font-size: 7px;
+}
+h2.tikka {
+  font-size: 14px;
+}
+}
